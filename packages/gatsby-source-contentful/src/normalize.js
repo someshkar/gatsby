@@ -43,10 +43,7 @@ const fixId = id => {
   if (!_.isString(id)) {
     id = id.toString()
   }
-  if (!isNaN(id.slice(0, 1))) {
-    return `c${id}`
-  }
-  return id
+  return `c${id}`
 }
 exports.fixId = fixId
 
