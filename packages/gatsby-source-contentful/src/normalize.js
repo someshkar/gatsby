@@ -36,22 +36,15 @@ const makeGetLocalizedField = ({ locale, localesFallback }) => field =>
 exports.getLocalizedField = getLocalizedField
 exports.buildFallbackChain = buildFallbackChain
 
-// If the id starts with a number, left-pad it with a c (for Contentful of
-// course :-))
-const fixId = id => {
-  if (!_.isString(id)) {
-    id = id.toString()
-  }
-  return `c${id}`
-}
+// Ensure ID is a string
+const fixId = id => `${id}`
 exports.fixId = fixId
 
 const shouldBeSkipped = (object, alreadyWalkedObjectRefs) =>
   !object || typeof object !== `object` || alreadyWalkedObjectRefs.has(object)
 
 // Walk the object model and find any property named `sys`. If it
-// contains an `id` then make sure the id is a string and if it starts with a
-// number, prefix it with (an arbitrarily chosen) `c`, for "contentful".
+// contains an `id` then make sure the id is a String
 // The `front` tracks which objects have been visited to prevent infinite
 // recursion on cyclic structures.
 const fixIds = object => {

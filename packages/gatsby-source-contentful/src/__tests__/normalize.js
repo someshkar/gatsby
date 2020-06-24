@@ -177,11 +177,8 @@ describe(`Process contentful data (by id)`, () => {
 })
 
 describe(`Fix contentful IDs`, () => {
-  it(`leaves ids that start with a string the same`, () => {
-    expect(normalize.fixId(`a123`)).toEqual(`a123`)
-  })
-  it(`left pads ids that start with a number of a "c"`, () => {
-    expect(normalize.fixId(`123`)).toEqual(`c123`)
+  it(`ensure fixID converts to string and does not prefix with c`, () => {
+    expect(normalize.fixId(123)).toEqual(`123`)
   })
   it(`does not change entries that are null/undefined`, () => {
     const a = null
@@ -213,7 +210,7 @@ describe(`Fix contentful IDs`, () => {
         {
           sys: {
             contentful_id: 500,
-            id: `c500`,
+            id: `500`,
           },
         },
         null,
@@ -238,7 +235,7 @@ describe(`Fix contentful IDs`, () => {
       b: {
         sys: {
           contentful_id: 500,
-          id: `c500`,
+          id: `500`,
         },
         value: null,
       },
@@ -276,7 +273,7 @@ describe(`Fix contentful IDs`, () => {
       const fixed = {
         sys: {
           contentful_id: 500,
-          id: `c500`,
+          id: `500`,
         },
       }
       fixed.b = fixed
@@ -301,11 +298,11 @@ describe(`Fix contentful IDs`, () => {
 
       const fixed = {
         sys: {
-          id: `c500`,
+          id: `500`,
           contentful_id: 500,
           fii: {
             sys: {
-              id: `c300x`,
+              id: `300x`,
               contentful_id: `300x`,
             },
           },
@@ -333,11 +330,11 @@ describe(`Fix contentful IDs`, () => {
 
       const fixed = {
         sys: {
-          id: `c500`,
+          id: `500`,
           contentful_id: 500,
           fii: {
             sys: {
-              id: `c300x`,
+              id: `300x`,
               contentful_id: `300x`,
             },
           },

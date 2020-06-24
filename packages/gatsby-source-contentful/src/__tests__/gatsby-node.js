@@ -23,7 +23,10 @@ const createMockCache = () => {
 }
 
 describe(`gatsby-node`, () => {
-  const actions = {}
+  const actions = {
+    createTypes: jest.fn(),
+  }
+  const schema = { buildObjectType: jest.fn() }
   const store = {}
   const cache = createMockCache()
   const getCache = jest.fn()
@@ -202,6 +205,7 @@ describe(`gatsby-node`, () => {
             defaultLocale: defaultLocale,
             currentLocale: locale,
             id: asset.sys.id,
+            type: asset.sys.type,
           })
         )
 
@@ -277,6 +281,7 @@ describe(`gatsby-node`, () => {
       createNodeId,
       cache,
       getCache,
+      schema,
     })
 
     testIfContentTypesExists(startersBlogFixture.initialSync.contentTypeItems)
@@ -336,6 +341,7 @@ describe(`gatsby-node`, () => {
       createNodeId,
       cache,
       getCache,
+      schema,
     })
 
     // check if blog posts do not exists
@@ -353,6 +359,7 @@ describe(`gatsby-node`, () => {
       createNodeId,
       cache,
       getCache,
+      schema,
     })
     testIfContentTypesExists(
       startersBlogFixture.createBlogPost.contentTypeItems
@@ -403,6 +410,7 @@ describe(`gatsby-node`, () => {
       createNodeId,
       cache,
       getCache,
+      schema,
     })
 
     // create blog post
@@ -415,6 +423,7 @@ describe(`gatsby-node`, () => {
       createNodeId,
       cache,
       getCache,
+      schema,
     })
 
     updatedBlogEntryIds.forEach(blogEntryId => {
@@ -431,6 +440,7 @@ describe(`gatsby-node`, () => {
       createNodeId,
       cache,
       getCache,
+      schema,
     })
 
     testIfContentTypesExists(
@@ -486,6 +496,7 @@ describe(`gatsby-node`, () => {
       createNodeId,
       cache,
       getCache,
+      schema,
     })
 
     // create blog post
@@ -498,6 +509,7 @@ describe(`gatsby-node`, () => {
       createNodeId,
       cache,
       getCache,
+      schema,
     })
 
     let authorIds = []
@@ -518,6 +530,7 @@ describe(`gatsby-node`, () => {
       createNodeId,
       cache,
       getCache,
+      schema,
     })
 
     testIfContentTypesExists(
@@ -564,6 +577,7 @@ describe(`gatsby-node`, () => {
       createNodeId,
       cache,
       getCache,
+      schema,
     })
 
     // create blog post
@@ -576,6 +590,7 @@ describe(`gatsby-node`, () => {
       createNodeId,
       cache,
       getCache,
+      schema,
     })
 
     // check if blog post exists
@@ -599,6 +614,7 @@ describe(`gatsby-node`, () => {
       createNodeId,
       cache,
       getCache,
+      schema,
     })
 
     testIfContentTypesExists(startersBlogFixture.removeAsset.contentTypeItems)

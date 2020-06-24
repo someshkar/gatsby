@@ -67,8 +67,8 @@ Array [
       "sys": Object {
         "contentType": Object {
           "sys": Object {
-            "contentful_id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
-            "id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
+            "contentful_id": "6XwpTaSiiI2Ak2Ww0oi6qa",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa",
             "linkType": "ContentType",
             "type": "Link",
           },
@@ -161,8 +161,8 @@ Array [
       "sys": Object {
         "contentType": Object {
           "sys": Object {
-            "contentful_id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
-            "id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
+            "contentful_id": "6XwpTaSiiI2Ak2Ww0oi6qa",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa",
             "linkType": "ContentType",
             "type": "Link",
           },
@@ -686,8 +686,8 @@ Our Lemnos products are made carefully by our craftsmen finely honed skillful te
               "sys": Object {
                 "contentType": Object {
                   "sys": Object {
-                    "contentful_id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
-                    "id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
+                    "contentful_id": "6XwpTaSiiI2Ak2Ww0oi6qa",
+                    "id": "6XwpTaSiiI2Ak2Ww0oi6qa",
                     "linkType": "ContentType",
                     "type": "Link",
                   },
@@ -1017,8 +1017,8 @@ Our Lemnos products are made carefully by our craftsmen finely honed skillful te
               "sys": Object {
                 "contentType": Object {
                   "sys": Object {
-                    "contentful_id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
-                    "id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
+                    "contentful_id": "6XwpTaSiiI2Ak2Ww0oi6qa",
+                    "id": "6XwpTaSiiI2Ak2Ww0oi6qa",
                     "linkType": "ContentType",
                     "type": "Link",
                   },
@@ -1346,8 +1346,8 @@ Our Lemnos products are made carefully by our craftsmen finely honed skillful te
               "sys": Object {
                 "contentType": Object {
                   "sys": Object {
-                    "contentful_id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
-                    "id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
+                    "contentful_id": "6XwpTaSiiI2Ak2Ww0oi6qa",
+                    "id": "6XwpTaSiiI2Ak2Ww0oi6qa",
                     "linkType": "ContentType",
                     "type": "Link",
                   },
@@ -1694,8 +1694,8 @@ Our Lemnos products are made carefully by our craftsmen finely honed skillful te
               "sys": Object {
                 "contentType": Object {
                   "sys": Object {
-                    "contentful_id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
-                    "id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
+                    "contentful_id": "6XwpTaSiiI2Ak2Ww0oi6qa",
+                    "id": "6XwpTaSiiI2Ak2Ww0oi6qa",
                     "linkType": "ContentType",
                     "type": "Link",
                   },
@@ -2063,7 +2063,7 @@ Our Lemnos products are made carefully by our craftsmen finely honed skillful te
         "createdBy": Object {
           "sys": Object {
             "contentful_id": "2cRG5PXyp1roAoTOywZTW6",
-            "id": "c2cRG5PXyp1roAoTOywZTW6",
+            "id": "2cRG5PXyp1roAoTOywZTW6",
             "linkType": "User",
             "type": "Link",
           },
@@ -2082,7 +2082,7 @@ Our Lemnos products are made carefully by our craftsmen finely honed skillful te
         "publishedBy": Object {
           "sys": Object {
             "contentful_id": "2cRG5PXyp1roAoTOywZTW6",
-            "id": "c2cRG5PXyp1roAoTOywZTW6",
+            "id": "2cRG5PXyp1roAoTOywZTW6",
             "linkType": "User",
             "type": "Link",
           },
@@ -2102,7 +2102,7 @@ Our Lemnos products are made carefully by our craftsmen finely honed skillful te
         "updatedBy": Object {
           "sys": Object {
             "contentful_id": "2cRG5PXyp1roAoTOywZTW6",
-            "id": "c2cRG5PXyp1roAoTOywZTW6",
+            "id": "2cRG5PXyp1roAoTOywZTW6",
             "linkType": "User",
             "type": "Link",
           },
@@ -2142,7 +2142,7 @@ Our Lemnos products are made carefully by our craftsmen finely honed skillful te
         "createdBy": Object {
           "sys": Object {
             "contentful_id": "2cRG5PXyp1roAoTOywZTW6",
-            "id": "c2cRG5PXyp1roAoTOywZTW6",
+            "id": "2cRG5PXyp1roAoTOywZTW6",
             "linkType": "User",
             "type": "Link",
           },
@@ -2161,7 +2161,7 @@ Our Lemnos products are made carefully by our craftsmen finely honed skillful te
         "publishedBy": Object {
           "sys": Object {
             "contentful_id": "2cRG5PXyp1roAoTOywZTW6",
-            "id": "c2cRG5PXyp1roAoTOywZTW6",
+            "id": "2cRG5PXyp1roAoTOywZTW6",
             "linkType": "User",
             "type": "Link",
           },
@@ -2181,7 +2181,7 @@ Our Lemnos products are made carefully by our craftsmen finely honed skillful te
         "updatedBy": Object {
           "sys": Object {
             "contentful_id": "2cRG5PXyp1roAoTOywZTW6",
-            "id": "c2cRG5PXyp1roAoTOywZTW6",
+            "id": "2cRG5PXyp1roAoTOywZTW6",
             "linkType": "User",
             "type": "Link",
           },
@@ -2292,7 +2292,7 @@ Object {
   "c6m5AJ9vMPKc8OUoQeoCS4o___Asset": Array [
     Object {
       "id": "c7LAnCobuuWYSqks6wAwY2a",
-      "name": "c6xwptasiii2ak2ww0oi6qa___NODE",
+      "name": "6xwptasiii2ak2ww0oi6qa___NODE",
       "spaceId": "x2t9il8x6p",
       "type": "Entry",
     },
@@ -2300,7 +2300,7 @@ Object {
   "c6t4HKjytPi0mYgs240wkG___Asset": Array [
     Object {
       "id": "c24DPGBDeGEaYy8ms4Y8QMQ",
-      "name": "c6xwptasiii2ak2ww0oi6qa___NODE",
+      "name": "6xwptasiii2ak2ww0oi6qa___NODE",
       "spaceId": "x2t9il8x6p",
       "type": "Entry",
     },
@@ -3074,17 +3074,17 @@ Array [
       "icon___NODE": "uuid-from-gatsby",
       "id": "uuid-from-gatsby",
       "internal": Object {
-        "contentDigest": "4b57b8c964ddc7cd7c760998a9803cf5",
-        "type": "ContentfulC6XwpTaSiiI2Ak2Ww0Oi6Qa",
+        "contentDigest": "01ad02f6ae25685d8de16e80d2be4af2",
+        "type": "Contentful6XwpTaSiiI2Ak2Ww0Oi6Qa",
       },
       "node_locale": "en-US",
-      "parent": "c6XwpTaSiiI2Ak2Ww0oi6qa",
+      "parent": "6XwpTaSiiI2Ak2Ww0oi6qa",
       "spaceId": "x2t9il8x6p",
       "sys": Object {
         "contentType": Object {
           "sys": Object {
-            "contentful_id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
-            "id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
+            "contentful_id": "6XwpTaSiiI2Ak2Ww0oi6qa",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa",
             "linkType": "ContentType",
             "type": "Link",
           },
@@ -3111,17 +3111,17 @@ Array [
       "icon___NODE": "uuid-from-gatsby",
       "id": "uuid-from-gatsby",
       "internal": Object {
-        "contentDigest": "e489c086930297c5f5f3300e1e83cea6",
-        "type": "ContentfulC6XwpTaSiiI2Ak2Ww0Oi6Qa",
+        "contentDigest": "1071cc107035152048e4e30bdd48e746",
+        "type": "Contentful6XwpTaSiiI2Ak2Ww0Oi6Qa",
       },
       "node_locale": "en-US",
-      "parent": "c6XwpTaSiiI2Ak2Ww0oi6qa",
+      "parent": "6XwpTaSiiI2Ak2Ww0oi6qa",
       "spaceId": "x2t9il8x6p",
       "sys": Object {
         "contentType": Object {
           "sys": Object {
-            "contentful_id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
-            "id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
+            "contentful_id": "6XwpTaSiiI2Ak2Ww0oi6qa",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa",
             "linkType": "ContentType",
             "type": "Link",
           },
@@ -3141,7 +3141,7 @@ Array [
         "content": "Home & Kitchen",
         "contentDigest": "71520a45fe8b5ecded737e074a6b30a0",
         "mediaType": "text/markdown",
-        "type": "contentfulC6XwpTaSiiI2Ak2Ww0Oi6QaTitleTextNode",
+        "type": "contentful6XwpTaSiiI2Ak2Ww0Oi6QaTitleTextNode",
       },
       "parent": "uuid-from-gatsby",
       "sys": Object {
@@ -3159,7 +3159,7 @@ Array [
         "content": "Shop for furniture, bedding, bath, vacuums, kitchen products, and more",
         "contentDigest": "24709e2bdb88b89104c215e6b5492bf8",
         "mediaType": "text/markdown",
-        "type": "contentfulC6XwpTaSiiI2Ak2Ww0Oi6QaCategoryDescriptionTextNode",
+        "type": "contentful6XwpTaSiiI2Ak2Ww0Oi6QaCategoryDescriptionTextNode",
       },
       "parent": "uuid-from-gatsby",
       "sys": Object {
@@ -3175,7 +3175,7 @@ Array [
         "content": "Toys",
         "contentDigest": "66d0af2d5da0109dc2aae67829f7d4d4",
         "mediaType": "text/markdown",
-        "type": "contentfulC6XwpTaSiiI2Ak2Ww0Oi6QaTitleTextNode",
+        "type": "contentful6XwpTaSiiI2Ak2Ww0Oi6QaTitleTextNode",
       },
       "parent": "uuid-from-gatsby",
       "sys": Object {
@@ -3193,7 +3193,7 @@ Array [
         "content": "Shop for toys, games, educational aids",
         "contentDigest": "c3cd3eaea58a115e968573664df3a603",
         "mediaType": "text/markdown",
-        "type": "contentfulC6XwpTaSiiI2Ak2Ww0Oi6QaCategoryDescriptionTextNode",
+        "type": "contentful6XwpTaSiiI2Ak2Ww0Oi6QaCategoryDescriptionTextNode",
       },
       "parent": "uuid-from-gatsby",
       "sys": Object {
@@ -3235,17 +3235,17 @@ Array [
       "icon___NODE": "uuid-from-gatsby",
       "id": "uuid-from-gatsby",
       "internal": Object {
-        "contentDigest": "cadc87edd2d6c475e8a254e9f5743475",
-        "type": "ContentfulC6XwpTaSiiI2Ak2Ww0Oi6Qa",
+        "contentDigest": "f560569716ddb0779fc67bc0b398ee63",
+        "type": "Contentful6XwpTaSiiI2Ak2Ww0Oi6Qa",
       },
       "node_locale": "de",
-      "parent": "c6XwpTaSiiI2Ak2Ww0oi6qa",
+      "parent": "6XwpTaSiiI2Ak2Ww0oi6qa",
       "spaceId": "x2t9il8x6p",
       "sys": Object {
         "contentType": Object {
           "sys": Object {
-            "contentful_id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
-            "id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
+            "contentful_id": "6XwpTaSiiI2Ak2Ww0oi6qa",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa",
             "linkType": "ContentType",
             "type": "Link",
           },
@@ -3272,17 +3272,17 @@ Array [
       "icon___NODE": "uuid-from-gatsby",
       "id": "uuid-from-gatsby",
       "internal": Object {
-        "contentDigest": "c435291ae53c30548c43438fe2365f08",
-        "type": "ContentfulC6XwpTaSiiI2Ak2Ww0Oi6Qa",
+        "contentDigest": "6c65c6b4c0ac424baffcbcd3c5435a92",
+        "type": "Contentful6XwpTaSiiI2Ak2Ww0Oi6Qa",
       },
       "node_locale": "de",
-      "parent": "c6XwpTaSiiI2Ak2Ww0oi6qa",
+      "parent": "6XwpTaSiiI2Ak2Ww0oi6qa",
       "spaceId": "x2t9il8x6p",
       "sys": Object {
         "contentType": Object {
           "sys": Object {
-            "contentful_id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
-            "id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
+            "contentful_id": "6XwpTaSiiI2Ak2Ww0oi6qa",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa",
             "linkType": "ContentType",
             "type": "Link",
           },
@@ -3302,7 +3302,7 @@ Array [
         "content": "Haus & Küche",
         "contentDigest": "21786d8d63d043d9cc0f639450bd5b70",
         "mediaType": "text/markdown",
-        "type": "contentfulC6XwpTaSiiI2Ak2Ww0Oi6QaTitleTextNode",
+        "type": "contentful6XwpTaSiiI2Ak2Ww0Oi6QaTitleTextNode",
       },
       "parent": "uuid-from-gatsby",
       "sys": Object {
@@ -3320,7 +3320,7 @@ Array [
         "content": "Shop für Möbel, Bettwäsche, Bad, Staubsauger, Küchenprodukte und vieles mehr",
         "contentDigest": "7d7b0c68e20954c3f092bae55ccbdd9f",
         "mediaType": "text/markdown",
-        "type": "contentfulC6XwpTaSiiI2Ak2Ww0Oi6QaCategoryDescriptionTextNode",
+        "type": "contentful6XwpTaSiiI2Ak2Ww0Oi6QaCategoryDescriptionTextNode",
       },
       "parent": "uuid-from-gatsby",
       "sys": Object {
@@ -3336,7 +3336,7 @@ Array [
         "content": "Spielzeug",
         "contentDigest": "22658c0cbfd038b32380aa036bff1cfe",
         "mediaType": "text/markdown",
-        "type": "contentfulC6XwpTaSiiI2Ak2Ww0Oi6QaTitleTextNode",
+        "type": "contentful6XwpTaSiiI2Ak2Ww0Oi6QaTitleTextNode",
       },
       "parent": "uuid-from-gatsby",
       "sys": Object {
@@ -3354,7 +3354,7 @@ Array [
         "content": "Spielzeugladen, Spiele, Lernhilfen",
         "contentDigest": "93335f47e41d44163239227427760695",
         "mediaType": "text/markdown",
-        "type": "contentfulC6XwpTaSiiI2Ak2Ww0Oi6QaCategoryDescriptionTextNode",
+        "type": "contentful6XwpTaSiiI2Ak2Ww0Oi6QaCategoryDescriptionTextNode",
       },
       "parent": "uuid-from-gatsby",
       "sys": Object {
@@ -5393,7 +5393,7 @@ Array [
       "sys": Object {
         "contentType": Object {
           "sys": Object {
-            "id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa",
             "linkType": "ContentType",
             "type": "Link",
           },
@@ -5481,7 +5481,7 @@ Array [
       "sys": Object {
         "contentType": Object {
           "sys": Object {
-            "id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa",
             "linkType": "ContentType",
             "type": "Link",
           },
@@ -5975,7 +5975,7 @@ Our Lemnos products are made carefully by our craftsmen finely honed skillful te
               "sys": Object {
                 "contentType": Object {
                   "sys": Object {
-                    "id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
+                    "id": "6XwpTaSiiI2Ak2Ww0oi6qa",
                     "linkType": "ContentType",
                     "type": "Link",
                   },
@@ -6286,7 +6286,7 @@ Our Lemnos products are made carefully by our craftsmen finely honed skillful te
               "sys": Object {
                 "contentType": Object {
                   "sys": Object {
-                    "id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
+                    "id": "6XwpTaSiiI2Ak2Ww0oi6qa",
                     "linkType": "ContentType",
                     "type": "Link",
                   },
@@ -6595,7 +6595,7 @@ Our Lemnos products are made carefully by our craftsmen finely honed skillful te
               "sys": Object {
                 "contentType": Object {
                   "sys": Object {
-                    "id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
+                    "id": "6XwpTaSiiI2Ak2Ww0oi6qa",
                     "linkType": "ContentType",
                     "type": "Link",
                   },
@@ -6923,7 +6923,7 @@ Our Lemnos products are made carefully by our craftsmen finely honed skillful te
               "sys": Object {
                 "contentType": Object {
                   "sys": Object {
-                    "id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
+                    "id": "6XwpTaSiiI2Ak2Ww0oi6qa",
                     "linkType": "ContentType",
                     "type": "Link",
                   },
@@ -8268,7 +8268,7 @@ Array [
       "icon___NODE": "uuid-from-gatsby",
       "id": "uuid-from-gatsby",
       "internal": Object {
-        "contentDigest": "1802d83dec680f1db591af371dc452f3",
+        "contentDigest": "9faa222008e591c801ea658bcc425ef4",
         "type": "ContentfulCategory",
       },
       "node_locale": "en-US",
@@ -8282,8 +8282,8 @@ Array [
       "sys": Object {
         "contentType": Object {
           "sys": Object {
-            "contentful_id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
-            "id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
+            "contentful_id": "6XwpTaSiiI2Ak2Ww0oi6qa",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa",
             "linkType": "ContentType",
             "type": "Link",
           },
@@ -8307,7 +8307,7 @@ Array [
       "icon___NODE": "uuid-from-gatsby",
       "id": "uuid-from-gatsby",
       "internal": Object {
-        "contentDigest": "5951a532846c1cb26753c8adbe1fac03",
+        "contentDigest": "841c062b44dadebbe5bbb05823baab2a",
         "type": "ContentfulCategory",
       },
       "node_locale": "en-US",
@@ -8319,8 +8319,8 @@ Array [
       "sys": Object {
         "contentType": Object {
           "sys": Object {
-            "contentful_id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
-            "id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
+            "contentful_id": "6XwpTaSiiI2Ak2Ww0oi6qa",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa",
             "linkType": "ContentType",
             "type": "Link",
           },
@@ -8429,7 +8429,7 @@ Array [
       "icon___NODE": "uuid-from-gatsby",
       "id": "uuid-from-gatsby",
       "internal": Object {
-        "contentDigest": "c030151644636c52dad7a0b383d33a58",
+        "contentDigest": "ee8d1bbedf2b3bc18162c02bb777973f",
         "type": "ContentfulCategory",
       },
       "node_locale": "de",
@@ -8443,8 +8443,8 @@ Array [
       "sys": Object {
         "contentType": Object {
           "sys": Object {
-            "contentful_id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
-            "id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
+            "contentful_id": "6XwpTaSiiI2Ak2Ww0oi6qa",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa",
             "linkType": "ContentType",
             "type": "Link",
           },
@@ -8468,7 +8468,7 @@ Array [
       "icon___NODE": "uuid-from-gatsby",
       "id": "uuid-from-gatsby",
       "internal": Object {
-        "contentDigest": "9fe99f1fb3ea6e6c64014b58b5a0720a",
+        "contentDigest": "6ade349eefa98adcab61f443f6b3cfd8",
         "type": "ContentfulCategory",
       },
       "node_locale": "de",
@@ -8480,8 +8480,8 @@ Array [
       "sys": Object {
         "contentType": Object {
           "sys": Object {
-            "contentful_id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
-            "id": "c6XwpTaSiiI2Ak2Ww0oi6qa",
+            "contentful_id": "6XwpTaSiiI2Ak2Ww0oi6qa",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa",
             "linkType": "ContentType",
             "type": "Link",
           },
