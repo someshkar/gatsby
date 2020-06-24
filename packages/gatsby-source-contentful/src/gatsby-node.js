@@ -126,7 +126,7 @@ exports.sourceNodes = async (
 `)
 
   createTypes(`
-  interface ContentfulReference @nodeInterface {
+  interface ContentfulReference {
     contentful_id: String!
     id: ID!
   }
