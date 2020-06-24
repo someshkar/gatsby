@@ -555,13 +555,13 @@ exports.extendNodeType = ({ type, store }) => {
       references: {
         type: [`ContentfulReference`],
         async resolve(source, args, context, info) {
-          const references = []
+          const references = { Entry: [], Asset: [] }
 
           const traverse = obj => {
             for (let k in obj) {
               const value = obj[k]
               if (value && value.sys && value.sys.type === `Link`) {
-                references.push(value.sys.contentful_id)
+                references[value.sys.linkType].push(value.sys.contentful_id)
               } else if (value && typeof value === `object`) {
                 traverse(value)
               }
@@ -570,20 +570,29 @@ exports.extendNodeType = ({ type, store }) => {
 
           traverse(JSON.parse(source.raw))
 
-          if (!references.length) {
+          if (!references.Entry.length && !references.Asset.length) {
             return null
           }
 
-          const result = await context.nodeModel.runQuery({
+          const resultEntries = await context.nodeModel.runQuery({
             query: {
               filter: {
-                contentful_id: { in: references },
+                contentful_id: { in: references.Entry },
               },
             },
-            type: `ContentfulReference`,
+            type: `ContentfulEntry`,
           })
 
-          return result
+          const resultAssets = await context.nodeModel.runQuery({
+            query: {
+              filter: {
+                contentful_id: { in: references.Asset },
+              },
+            },
+            type: `ContentfulAsset`,
+          })
+
+          return [...(resultEntries || []), ...(resultAssets || [])]
         },
       },
     }
