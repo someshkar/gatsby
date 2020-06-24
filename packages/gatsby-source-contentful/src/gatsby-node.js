@@ -119,38 +119,39 @@ exports.sourceNodes = async (
   })
 
   createTypes(`
-    interface ContentfulEntry @nodeInterface {
-      contentful_id: String!
-      id: ID!
-    }
-  `)
-  // This is not working:
-  // Error: Cannot find ObjectTypeComposer with name ContentfulAsset
-  //
-  // createTypes(`
-  //   interface ContentfulAsset @nodeInterface {
-  //     contentful_id: String!
-  //     id: ID!
-  //   }
-  // `)
-  // createTypes(
-  //   schema.buildObjectType({
-  //     name: `ContentfulReference`,
-  //     fields: {
-  //       contentful_id: { type: `String!` },
-  //       id: { type: `ID` },
-  //     },
-  //     interfaces: [`ContentfulEntry`, `ContentfulAsset`, `Node`],
-  //   })
-  // )
+  interface ContentfulEntry @nodeInterface {
+    contentful_id: String!
+    id: ID!
+  }
+`)
+
+  createTypes(`
+  interface ContentfulReference @nodeInterface {
+    contentful_id: String!
+    id: ID!
+  }
+`)
+
+  createTypes(
+    schema.buildObjectType({
+      name: `ContentfulAsset`,
+      fields: {
+        contentful_id: { type: `String!` },
+        id: { type: `ID!` },
+        foo: { type: `String` },
+      },
+      interfaces: [`ContentfulReference`, `Node`],
+    })
+  )
+
   const gqlTypes = contentTypeItems.map(contentTypeItem =>
     schema.buildObjectType({
       name: _.upperFirst(_.camelCase(`Contentful ${contentTypeItem.name}`)),
       fields: {
         contentful_id: { type: `String!` },
-        id: { type: `ID` },
+        id: { type: `ID!` },
       },
-      interfaces: [`ContentfulEntry`, `Node`],
+      interfaces: [`ContentfulReference`, `ContentfulEntry`, `Node`],
     })
   )
   createTypes(gqlTypes)

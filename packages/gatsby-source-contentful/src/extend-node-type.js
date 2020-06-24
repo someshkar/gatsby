@@ -553,7 +553,7 @@ exports.extendNodeType = ({ type, store }) => {
         deprecationReason: `This field is deprecated, please use 'raw' instead. @todo add link to migration steps.`,
       },
       references: {
-        type: [`ContentfulEntry`],
+        type: [`ContentfulReference`],
         async resolve(source, args, context, info) {
           const references = []
 
@@ -580,7 +580,7 @@ exports.extendNodeType = ({ type, store }) => {
                 contentful_id: { in: references },
               },
             },
-            type: `ContentfulEntry`,
+            type: `ContentfulReference`,
           })
 
           return result

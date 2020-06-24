@@ -213,12 +213,22 @@ function renderRichText({ raw, references }, options = {}) {
       },
     ],
     includes: {
-      Entry: references.map(reference => {
-        return {
-          ...reference,
-          sys: { type: `Entry`, id: fixId(reference.contentful_id) },
-        }
-      }),
+      Entry: references
+        .filter(({ __typename }) => __typename !== `ContentfulAsset`)
+        .map(reference => {
+          return {
+            ...reference,
+            sys: { type: `Entry`, id: fixId(reference.contentful_id) },
+          }
+        }),
+      Asset: references
+        .filter(({ __typename }) => __typename === `ContentfulAsset`)
+        .map(reference => {
+          return {
+            ...reference,
+            sys: { type: `Asset`, id: fixId(reference.contentful_id) },
+          }
+        }),
     },
   }
 
